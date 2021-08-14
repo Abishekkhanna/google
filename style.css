@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.logo{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+
+}
+.sea{
+    display: flex;
+    justify-content: center;
+}
+input{
+    
+    width: 39%;
+    height: 39px;
+    margin-top: 20px;
+    background: #fff;
+    padding: 0px 40px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    font-size: 18px;
+    background-image: url(img/Google_mic.svg.png), url(img/mic.svg);
+    background-size: 15px,20px;
+    background-position: right 15px center, left 15px center;
+    background-repeat: no-repeat;
+    outline: none;
+}
+input:hover{
+    
+    width: 39%;
+    height: 39px;
+    margin-top: 20px;
+    padding: 0px 40px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-radius: 24px;
+    background-image: url(img/Google_mic.svg.png), url(img/mic.svg);
+    background-size: 15px,20px;
+    background-position: right 15px center, left 15px center;
+    background-repeat: no-repeat;
+    outline: none;
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 10px 15px;
+    margin-top: 25px;
+    margin-right: 15px;
+    background-color: #f8f9fa;
+    border: 2px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 2px solid #d1d1d1;
+    padding: 10px 15px;
+    margin-top: 25px;
+    margin-right: 15px;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+.offer{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #3c4043;
+}
+.offer a{
+    color: #1a0dab;
+}
+.offer a:hover{
+    color: #1a0dab;
+    text-decoration: underline #1a0dab;
+}
+ul li{
+    display: inline;
+    padding: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: #70757a;
+}
+footer{
+    background: #f2f2f2;
+    padding: 15px 30px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #dee1e4;
+}
